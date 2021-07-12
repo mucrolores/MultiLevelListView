@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_title_height"
+        android:text="Edit classification title"
+        style="@style/DialogTitleTextViewStyle"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_boundary_line_height"
+        android:background="@color/light_blue"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Picked classification: "
+            style="@style/DialogContentTextViewStyle"/>
+
+        <TextView
+            android:id="@+id/editTitleTextView_ID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            style="@style/DialogContentTextViewStyle"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_boundary_line_height"
+        android:background="@color/black"/>
+
+    <EditText
+        android:id="@+id/targetTitleEditText_ID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="10dp"
+        android:hint="classification name"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_boundary_line_height"
+        android:background="@color/light_blue"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_floor_height">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.7"/>
+
+        <Button
+            android:id="@+id/cancelEditTitleDialogButton_ID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Cancel"
+            style="@style/Dialog_Button_Style"/>
+
+        <Button
+            android:id="@+id/confirmEditTitleDialogButton_ID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Confirm"
+            style="@style/Dialog_Button_Style"/>
+
+    </LinearLayout>
+
+</LinearLayout>

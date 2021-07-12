@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Dialog_Button_Style">
+        <item name="android:textColor">@color/light_blue</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="DialogTitleTextViewStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="DialogContentTextViewStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_title_height">59dp</dimen>
+    <dimen name="dialog_floor_height">49dp</dimen>
+    <dimen name="dialog_boundary_line_height">1dp</dimen>
+
+    <dimen name="dialog_padding_length">5dp</dimen>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/titleTextViewId"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="6"
+        android:textSize="20sp"
+        android:text="Default Item"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        />
+
+    <ImageButton
+        android:id="@+id/editTitleImageButtonId"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:src="@drawable/pencil"
+        android:scaleType="fitCenter"
+        android:padding="5dp"
+        android:background="@color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/addChildImageButtonId"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:src="@android:drawable/ic_input_add"
+        android:background="@color/transparent" />
+
+
+
+</LinearLayout>
